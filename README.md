@@ -1,4 +1,4 @@
-# uselessProjects<img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
+ <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
 ## Blink Detector🎯
@@ -11,65 +11,57 @@
 - Member 2: Deeya Maria Sajeev - Model Engineering College
 
 ### Project Description
-[2-3 lines about what your project does]
+This is an interactive web-based project that uses the Mediapipe FaceMesh API to detect eye blinks in real-time via webcam. Each blink triggers chaotic visual and audio effects with randomized alerts and sound distortions. The project combines computer vision, JavaScript, and creative UI to simulate a humorous “chaos protocol” on blink detection.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+It is very hard to live not knowing how many times you blink . 
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+ Our application counts the number of times you blink your eyes when it is running anda also roasts you for blinking.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+ Languages Used:HTML, CSS, JavaScript
+
+ Libraries used: MediaPipe FaceMesh – for real-time facial landmark detection
+                 MediaPipe Camera Utils – for handling webcam input
+
+ Tools Used:Web browser (for deployment and testing)
+           AudioContext API (for sound processing and effects)
+           HTML5  – for drawing video and overlays
+           GitHub or VS Code (if applicable for development)
+
 
 ### Implementation
 For Software:
 # Installation
-[commands]
-
+#  1. Clone the repository (or download the HTML file)
+git clone https://github.com/your-username/blink-chaos-mode.git
+cd blink-chaos-mode
+# 2. Open the HTML file in your browser
+start index.html        
 # Run
-[commands]
+start index.html
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+1.[alt text](image.png)
+  Before the website starts working. It starts working when the 'start chaos' button is pushed.
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+2.[alt text](image-1.png)
+  The website has started working and no blinks have been detected.
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+3.[alt text](image-2.png)
+  
+ 
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
 *Add caption explaining your workflow*
 
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
