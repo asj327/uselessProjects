@@ -98,7 +98,7 @@ For Software:
 
 ### Project Demo
 # Video
-[c:\Users\jojia\AppData\Local\Packages\Microsoft.ScreenSketch_8wekyb3d8bbwe\TempState\Recordings\20250802-0222-39.2226943.mp4](https://drive.google.com/file/d/1nWfpwqVpbHm6bSMrUEPMwEJ1oy8jtZ7C/view?usp=sharing)
+[Demo Video](https://drive.google.com/file/d/1nWfpwqVpbHm6bSMrUEPMwEJ1oy8jtZ7C/view?usp=sharing)
 
 
 ## Team Contributions
