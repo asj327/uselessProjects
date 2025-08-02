@@ -1,6 +1,3 @@
- <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
-
-
 ## Blink Detector🎯
 
 ## Team Name: Binary Bandits
@@ -101,11 +98,8 @@ For Software:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+[c:\Users\jojia\AppData\Local\Packages\Microsoft.ScreenSketch_8wekyb3d8bbwe\TempState\Recordings\20250802-0222-39.2226943.mp4](https://drive.google.com/file/d/1nWfpwqVpbHm6bSMrUEPMwEJ1oy8jtZ7C/view?usp=sharing)
 
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
 - Anna Sara Joji : Html, Documentation
