@@ -17,7 +17,7 @@ This is an interactive web-based project that uses the Mediapipe FaceMesh API to
 It is very hard to live not knowing how many times you blink . 
 
 ### The Solution (that nobody asked for)
- Our application counts the number of times you blink your eyes when it is running anda also roasts you for blinking.
+ Our application counts the number of times you blink your eyes when it is running and also roasts you for blinking.
 
 ## Technical Details
 ### Technologies/Components Used
