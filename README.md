@@ -55,12 +55,48 @@ For Software:
   The website has started working and no blinks have been detected.
 
 3.[alt text](image-2.png)
+  It has counted how many times I have blinked.
   
  
-
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+            ┌───────────────┐
+            │ Start Button  │
+            └──────┬────────┘
+                   │
+                   ▼
+       ┌────────────────────┐
+       │  Access Webcam     │
+       └────────┬───────────┘
+                ▼
+     ┌────────────────────────┐
+     │ Video Frame Captured   │
+     └────────┬───────────────┘
+              ▼
+   ┌─────────────────────────────┐
+   │ MediaPipe FaceMesh detects  │
+   │ facial landmarks (eyes)     │
+   └────────┬────────────────────┘
+            ▼
+ ┌────────────────────────────────┐
+ │ Calculate Eye Aspect Ratio     │
+ │ (to detect blink)              │
+ └────────┬───────────────────────┘
+          ▼
+ ┌────────────────────────────────────┐
+ │ Blink Detected?                    │
+ └───────┬──────────────┬─────────────┘
+         │ No           │ Yes
+         ▼              ▼
+  (continue frames)   ┌──────────────────────────┐
+                      │ Increment Blink Count    │
+                      │ Show Roast Message       │
+                      │ Play Distorted Sound     │
+                      │ Flash Background         │
+                      └──────────┬───────────────┘
+                                 ▼
+                  ┌─────────────────────────────┐
+                  │ Update Blink Count on Page  │
+                  └─────────────────────────────┘
 
 
 ### Project Demo
@@ -72,8 +108,8 @@ For Software:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Anna Sara Joji : Html, Documentation
+- Deeya Maria Sajeev :  CSS, Javascript
+ 
 
  
